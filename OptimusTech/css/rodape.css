@@ -1,0 +1,64 @@
+.acompanhe{
+    width: var(--width);
+    margin: var(--margin);
+    padding: 6rem 0;
+    background-color: #F9FAFB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.acompanhe-oportunidades{
+    font-weight: bold;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    letter-spacing: -0.02em;
+    color: var(--text-texto);
+}
+
+.acompanhe-primeiro{
+    padding-top: 1.25rem;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.8rem;
+    color: var(--main-color);
+}
+
+.acompanhe-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 2.5rem;
+    gap: 1rem;
+}
+
+.acompanhe-email{
+    width: 22.5rem;
+    height: 3rem;
+    background-color: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+}
+
+.acompanhe-cadastrar{
+    border-radius: 0.5rem;
+    width: 7.25rem;
+    height: 3rem;
+    background-color: var(--text-color);
+    border: 1px solid var(--text-color);
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    padding: 0.75rem 1.25rem;
+    color: #FFFFFF;
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+
+.acompanha-direitos{
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: #98A2B3;
+    padding-top: 2rem;
+}
+

@@ -1,0 +1,218 @@
+.menu_principal{
+    width: var(--width);
+    margin: var(--margin);
+    height: 407px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu_principal-item{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: var(--text-color);
+    margin: 6rem 0 1.5rem;
+}
+
+.menu_principal-titulo{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 1.5rem;
+}
+
+.menu_principal-texto{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: var(--main-color);
+}
+
+.metricas{
+    width: var(--width);
+    margin: var(--margin);  
+    padding-bottom: 4rem;
+    display: flex;
+}
+
+.metricas-geral{
+    padding: 0 1rem;
+    width: 17.5rem;
+    
+}
+
+.metricas-geral h2{
+    font-weight: 600;
+    font-size: 3.2rem;
+    color: var(--text-color);
+    line-height: 4rem;    
+}
+
+.metricas-geral h3{
+    font-weight: bold;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    color: var(--text-texto);
+}
+
+.metricas-geral p{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: var(--main-color);
+}
+
+.metricas-projetos{
+    margin-left: 5rem;
+}
+
+.metricas-reviews{
+    margin-right: 5rem;
+}
+
+.vagas{
+    width: var(--width);
+    margin: var(--margin);
+    text-align: center;
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vagas-abertas{
+    padding: 0.25rem 0.75rem;
+    width: 7rem;
+    margin: 0 auto;
+    border-radius: 1rem;
+    background: rgb(142, 36, 36, 0.05);
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 0.9rem;
+    line-height: 1.25rem;
+}
+
+.vagas-anuncio{
+    margin-top: 1rem;
+    height: 2.75rem;
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: var(--text-texto);
+}
+
+.vagas-texto{
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.8rem;
+    color: var(--main-color);
+    margin-top: 1.25rem;
+    margin-bottom: 4rem;
+}
+
+.vagas-imagem{
+    width: 1000px;
+    margin-bottom: 4rem;
+}
+
+.vaga-secao{
+    width: 51rem;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.25rem;
+    line-height: 1.8rem;
+    color: var(--text-texto);
+}
+
+.vaga{
+    margin-top: 2rem;
+    padding: 1.5rem 1.5rem;
+    width: 48rem;
+    text-align: left;
+
+    border: 1px solid #EAECF0;
+    border-radius: 1rem;
+}
+
+.vaga-titulo{
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: var(--text-texto);
+}
+
+.vaga-informacoes{
+    margin-top: 2rem;
+}
+
+.vaga-informacoes span:nth-child(1){
+    line-height: 1.5rem;
+    font-weight: 500;
+    margin-right: 1.5rem;
+    color: var(--main-color);
+}
+
+.vaga-informacoes span:nth-child(2){
+    line-height: 1.5rem;
+    font-weight: 500;
+    margin-right: 1.5rem;
+    color: var(--main-color);
+}
+
+.vaga-secao-desenvolvimento{
+    margin-top: 4rem;
+
+}
+
+.depoimento{
+    width: var(--width);
+    margin: var(--margin);
+    padding-bottom: 6rem;
+    padding-top: 4rem;
+    text-align: center;
+    background-color: rgba(195, 25, 25, 0.03);
+    border-radius: 1rem;
+}
+
+.depoimento-titulo{
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 0.8rem;
+    line-height: 1.25rem;
+}
+
+.depoimento-texto{
+    padding-top: 1rem;
+    font-weight: bold;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    letter-spacing: -0.02em;
+    color: var(--text-texto);
+}
+
+.depoimento-autora{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.depoimento-imagem{
+    padding-top: 2rem;
+}
+
+.depoimento-nome{
+    padding-top: 1rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+    color: var(--text-texto);
+}
+
+.depoimento-profissao{
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1.25rem;
+    color: var(--main-color);
+}
+
